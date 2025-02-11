@@ -1,7 +1,7 @@
 import nodemailer from "nodemailer";
 import dotenv from "dotenv";
 import { v4 as uuidv4 } from "uuid";
-import { hashString } from "./index.js";
+import { hashString } from "../Utils/index.js";
 import Verification from "../models/emailVerification.js";
 import PasswordReset from "../models/PasswordReset.js";
 
