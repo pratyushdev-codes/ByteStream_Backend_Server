@@ -1,6 +1,6 @@
 import Users from "../Models/userModels.js";
-import { compareString, createJWT, hashString } from "../utils/index.js";
-import { sendVerificationEmail } from "../utils/sendEmail.js";
+import { compareString, createJWT, hashString } from "../Utils/index.js";
+import { sendVerificationEmail } from "../Utils/sendEmail.js";
 
 export const register = async (req, res, next) => {
   const { firstName, lastName, email, password } = req.body;
