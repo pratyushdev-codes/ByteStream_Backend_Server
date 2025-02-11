@@ -1,6 +1,6 @@
 import Verification from "../Models/emailVerification.js";
 import { compareString, createJWT, hashString } from "../Utils/index.js";
-import Users from "../Models/userModel.js";
+import Users from "../Models/userModels.js";
 import friendRequest from "../Models/friendRequest.js";
 import PasswordReset from "../Models/passwordReset.js";
 import { resetPasswordLink } from "../Utils/sendEmail.js";

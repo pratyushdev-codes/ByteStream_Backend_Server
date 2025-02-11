@@ -1,4 +1,4 @@
-import Users from "../models/userModel.js";
+import Users from "../Models/userModels.js";
 import { compareString, createJWT, hashString } from "../utils/index.js";
 import { sendVerificationEmail } from "../utils/sendEmail.js";
 
